@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{6A9F3D0B-84E7-5B98-5B0A-2FF24A474D82}") = "404GameJam", "Assembly-CSharp.csproj", "{69FF8F6B-56AE-50BE-A515-4E5EE13245BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69FF8F6B-56AE-50BE-A515-4E5EE13245BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69FF8F6B-56AE-50BE-A515-4E5EE13245BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69FF8F6B-56AE-50BE-A515-4E5EE13245BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69FF8F6B-56AE-50BE-A515-4E5EE13245BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

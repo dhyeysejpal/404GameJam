@@ -7,6 +7,7 @@ public class Shooting : MonoBehaviour
 	public GameObject bullet = GameObject.CreatePrimitive(PrimitiveType.Capsule);
 	public GameObject player;
 
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -18,7 +19,7 @@ public class Shooting : MonoBehaviour
 	{	
 		if (Input.GetKeyDown (KeyCode.X)) 
 		{
-			Instantiate (bullet, GunPosition, Quaternion.identity);
+			//Instantiate (bullet, GunPosition, Quaternion.identity);
 		}
 	}
 }
