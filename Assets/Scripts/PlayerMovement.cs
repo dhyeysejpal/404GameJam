@@ -1,15 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerMovement : MonoBehaviour {
+public class PlayerMovement : MonoBehaviour 
+{
+	private Rigidbody rb;
+	public float speed;
+	public float jump_height;
 
 	// Use this for initialization
-	void Start () {
-	
+	void Start () 
+	{
+		rb = GetComponent<Rigidbody>();
 	}
-	
+
 	// Update is called once per frame
-	void Update () {
-	
+	void Update () 
+	{
+		transform.Translate(speed * Time.deltaTime * Input.GetAxis("Horizontal"), jump_height * Time.deltaTime * Input.GetAxis("Vertical"), 0f);
+
 	}
 }
