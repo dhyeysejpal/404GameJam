@@ -26,11 +26,13 @@ public class EnemyControl : MonoBehaviour {
 	}
 
 	void death (){
-		GetComponent<Renderer> ().material.color = Color.red;
-		GetComponent<Rigidbody> ().isKinematic = true;
-		GetComponent<Collider> ().isTrigger = true;
 		lvlCtrl.decreaseEnemy();
 		lvlCtrl.ammo += ammoWorth;
+		//GetComponent<Renderer> ().material.color = Color.red;
+		//GetComponent<Rigidbody> ().isKinematic = true;
+		//GetComponent<Collider> ().isTrigger = true;
+		gameObject.SetActive(false);
+
 
 
 		//set to kinematic
